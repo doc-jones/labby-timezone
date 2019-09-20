@@ -2,7 +2,8 @@ package main
 import (
     "context"
     "encoding/json"
-	"time"
+    "time"
+    "io/ioutil"
 	"net/http"
     "github.com/aws/aws-lambda-go/events"
     "github.com/aws/aws-lambda-go/lambda"
