@@ -1,4 +1,4 @@
-service: lambda-time
+service: labby-time
 provider:
   name: aws
   runtime: go1.x
@@ -9,7 +9,7 @@ package:
    - ./bin/**
 functions:
   lambda-time:
-    handler: bin/lambda-time
+    handler: bin/labby-time
     events:
       - http:
           path: /
